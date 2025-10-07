@@ -7,7 +7,7 @@ from tkinter import *
 root = Tk()
 
 # Set geometry
-root.geometry('400x500')
+root.geometry('1280x720')
 
 # Information List
 datas = []
@@ -76,4 +76,5 @@ scroll_bar.pack(side=RIGHT, fill=Y)
 select.place(x=200,y=260)
 
 # Execute Tkinter
+
 root.mainloop()
